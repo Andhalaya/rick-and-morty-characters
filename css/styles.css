@@ -77,5 +77,30 @@ ul {
   list-style: none;
 }
 
+#character-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 
+}
+
+.card{
+  border: 1px solid rgb(183, 183, 183);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card-info{
+  padding-top: 10px;
+}
+
+.card-info p{
+  margin: 5px;
+}
+
+span{
+  font-weight: bold;
+}
 
